@@ -35,7 +35,7 @@ class Features(BaseModel):
     LONGITUDE: float
     POPULATION_TOTAL: float
     OFFICER_TOTAL: float
-    TEMP_CLASS: str
+    TEMP_CLASS: int          # 👈 AHORA ES INT (1–4)
     GUNSHOT_INJURY: float
     CLUSTER_TYPE: str
     DOMESTIC: str
