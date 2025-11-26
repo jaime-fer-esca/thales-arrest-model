@@ -1,7 +1,12 @@
 fastapi
 uvicorn
-scikit-learn
+
+# versiones alineadas a tu Colab
+scikit-learn==1.6.1
+numpy==1.26.4
+
 joblib
-numpy
+pandas
 pydantic
 imbalanced-learn
+lightgbm
